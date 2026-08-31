@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Complianz | GDPR/CCPA Cookie Consent plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Complianz | GDPR/CCPA Cookie Consent 7.5.3.1\n"
+"Project-Id-Version: Complianz | GDPR/CCPA Cookie Consent 7.5.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/complianz-gdpr\n"
 "Last-Translator: Complianz <support@complianz.io>\n"
 "Language-Team: Complianz <support@complianz.io>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-08-18T06:32:26+00:00\n"
+"POT-Creation-Date: 2026-08-31T10:24:04+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: complianz-gdpr\n"
@@ -56,7 +56,7 @@ msgstr ""
 #: class-admin.php:241
 #: settings/config/menu.php:285
 #: settings/config/menu.php:289
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "Support"
 msgstr ""
 
@@ -2370,7 +2370,7 @@ msgstr ""
 #: settings/build/4644.ce465c5d9733b80acf30.js:1
 #: settings/build/8596.9b42544648802b678f6d.js:1
 #: settings/build/9487.e9838335195a59707dfe.js:1
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "Upgrade"
 msgstr ""
 
@@ -2441,7 +2441,7 @@ msgid "We use technologies like cookies to store and/or access device informatio
 msgstr ""
 
 #: cookiebanner/admin/cookiebanner.php:137
-#: cookiebanner/admin/cookiebanner.php:263
+#: cookiebanner/admin/cookiebanner.php:262
 msgid "Banner A"
 msgstr ""
 
@@ -2449,8 +2449,8 @@ msgstr ""
 msgid "Banner B"
 msgstr ""
 
-#: cookiebanner/admin/cookiebanner.php:286
 #: cookiebanner/admin/cookiebanner.php:287
+#: cookiebanner/admin/cookiebanner.php:288
 #: settings/config/menu.php:187
 #: settings/build/3971.42c75f410294426ba63f.js:1
 #: settings/build/4570.dedb4dde2dccc3188414.js:1
@@ -2459,15 +2459,15 @@ msgstr ""
 msgid "Consent Banner"
 msgstr ""
 
-#: cookiebanner/admin/cookiebanner.php:306
+#: cookiebanner/admin/cookiebanner.php:310
 msgid "Cookiebanner"
 msgstr ""
 
-#: cookiebanner/admin/cookiebanner.php:325
+#: cookiebanner/admin/cookiebanner.php:334
 msgid "Disable Complianz on this page"
 msgstr ""
 
-#: cookiebanner/admin/cookiebanner.php:330
+#: cookiebanner/admin/cookiebanner.php:340
 msgid "On a cookie policy, the banner will be minimized by default"
 msgstr ""
 
@@ -3330,7 +3330,12 @@ msgstr ""
 msgid "Click to accept the cookies for this service"
 msgstr ""
 
-#: documents/class-document.php:2122
+#. translators: 1: site name, 2: document title, 3: date the PDF was generated
+#: documents/class-document.php:2048
+msgid "%1$s — %2$s — Generated on %3$s"
+msgstr ""
+
+#: documents/class-document.php:2158
 msgid "No title"
 msgstr ""
 
@@ -3429,9 +3434,9 @@ msgstr ""
 
 #: integrations/admin/integrations.php:362
 #: settings/config/menu.php:141
-#: websitescan/class-wsc-scanner.php:1370
-#: websitescan/class-wsc-scanner.php:1379
-#: websitescan/class-wsc-scanner.php:1388
+#: websitescan/class-wsc-scanner.php:1372
+#: websitescan/class-wsc-scanner.php:1381
+#: websitescan/class-wsc-scanner.php:1390
 msgid "Advertising"
 msgstr ""
 
@@ -4350,7 +4355,7 @@ msgid "System Status"
 msgstr ""
 
 #: settings/config/fields/tools/support.php:40
-#: settings/build/2980.92a8207f9d739ea56809.js:1
+#: settings/build/2980.a675d6d34b56c62f6f43.js:1
 #: settings/build/4575.34faeb333c9031b5299f.js:1
 #: settings/build/7161.c25835aeaa0dfaaa6594.js:1
 msgid "Download"
@@ -4362,7 +4367,7 @@ msgstr ""
 
 #: settings/config/fields/wizard/consent.php:17
 #: settings/config/menu.php:111
-#: websitescan/class-wsc-settings.php:194
+#: websitescan/class-wsc-settings.php:196
 msgid "Website Scan"
 msgstr ""
 
@@ -5305,7 +5310,7 @@ msgstr ""
 #: settings/config/menu.php:180
 #: settings/build/11.773ce66896be1c8a4d07.js:1
 #: settings/build/2058.f74f23cfeece7591a5ae.js:1
-#: settings/build/2980.92a8207f9d739ea56809.js:1
+#: settings/build/2980.a675d6d34b56c62f6f43.js:1
 #: settings/build/6281.61ad008ffae13664155d.js:1
 msgid "Finish"
 msgstr ""
@@ -5432,7 +5437,7 @@ msgid "Create Processing Agreements with %1$sComplianz GDPR Premium%2$s"
 msgstr ""
 
 #: settings/config/menu.php:383
-#: websitescan/class-wsc-settings.php:196
+#: websitescan/class-wsc-settings.php:198
 msgid "View and manage Processing Agreements with %1$sComplianz GDPR Premium%2$s"
 msgstr ""
 
@@ -5653,7 +5658,7 @@ msgstr ""
 
 #: upgrade/upgrade-to-pro.php:469
 #: settings/build/1027.680330fc1970e47f24df.js:1
-#: settings/build/2980.92a8207f9d739ea56809.js:1
+#: settings/build/2980.a675d6d34b56c62f6f43.js:1
 #: settings/build/6281.61ad008ffae13664155d.js:1
 msgid "Cancel"
 msgstr ""
@@ -5779,25 +5784,25 @@ msgid "You have a new feature! To enable the new and improved Website Scan you n
 msgstr ""
 
 #. translators: %s: website name.
-#: websitescan/class-wsc-scanner.php:1115
+#: websitescan/class-wsc-scanner.php:1117
 msgid "[Complianz] Compliance report for %s"
 msgstr ""
 
 #. translators: %1$s: site url, %2$s: website name.
-#: websitescan/class-wsc-scanner.php:1190
+#: websitescan/class-wsc-scanner.php:1192
 msgid "This compliance report was sent from your site <a href=\"%1$s\" target=\"_blank\">%2$s</a> by Complianz"
 msgstr ""
 
-#: websitescan/class-wsc-scanner.php:1194
+#: websitescan/class-wsc-scanner.php:1196
 msgid "You can find the most important takeaways below:"
 msgstr ""
 
 #. translators: %1$s: website name.
-#: websitescan/class-wsc-scanner.php:1203
+#: websitescan/class-wsc-scanner.php:1205
 msgid "Are you no longer the website administrator? <a href=\"%1$s\" target=\"_blank\">Click here</a> to dismiss notifications."
 msgstr ""
 
-#: websitescan/class-wsc-scanner.php:1292
+#: websitescan/class-wsc-scanner.php:1294
 #: settings/build/1699.617faf04cf422977e5ed.js:1
 #: settings/build/4570.dedb4dde2dccc3188414.js:1
 #: settings/build/6644.18e0447b120324cb47ec.js:1
@@ -5807,81 +5812,81 @@ msgstr ""
 msgid "Read more"
 msgstr ""
 
-#: websitescan/class-wsc-scanner.php:1341
-#: websitescan/class-wsc-scanner.php:1350
-#: websitescan/class-wsc-scanner.php:1359
+#: websitescan/class-wsc-scanner.php:1343
+#: websitescan/class-wsc-scanner.php:1352
+#: websitescan/class-wsc-scanner.php:1361
 msgid "Consent mode"
 msgstr ""
 
-#: websitescan/class-wsc-scanner.php:1342
-#: websitescan/class-wsc-scanner.php:1351
-#: websitescan/class-wsc-scanner.php:1360
+#: websitescan/class-wsc-scanner.php:1344
+#: websitescan/class-wsc-scanner.php:1353
+#: websitescan/class-wsc-scanner.php:1362
 msgid "We have found {technology} on your site and recommend <a target=\"_blank\" href=\"{admin_url}\">enabling</a> Google Consent Mode V2 to optimize your analytics implementation."
 msgstr ""
 
-#: websitescan/class-wsc-scanner.php:1371
-#: websitescan/class-wsc-scanner.php:1380
-#: websitescan/class-wsc-scanner.php:1389
+#: websitescan/class-wsc-scanner.php:1373
+#: websitescan/class-wsc-scanner.php:1382
+#: websitescan/class-wsc-scanner.php:1391
 msgid "If you’re showing ads on your website it’s likely you need a Google certified CMP to make sure your ads are shown correctly. With Complianz you can <a target=\"_blank\" href=\"{admin_url}\">enable TCF</a> with our Google certified CMP."
 msgstr ""
 
-#: websitescan/class-wsc-scanner.php:1399
-#: websitescan/class-wsc-scanner.php:1407
-#: websitescan/class-wsc-scanner.php:1415
+#: websitescan/class-wsc-scanner.php:1401
+#: websitescan/class-wsc-scanner.php:1409
+#: websitescan/class-wsc-scanner.php:1417
 msgid "Privacy laws"
 msgstr ""
 
-#: websitescan/class-wsc-scanner.php:1400
-#: websitescan/class-wsc-scanner.php:1408
-#: websitescan/class-wsc-scanner.php:1416
+#: websitescan/class-wsc-scanner.php:1402
+#: websitescan/class-wsc-scanner.php:1410
+#: websitescan/class-wsc-scanner.php:1418
 msgid "On websites with multiple languages you need to consider that your visitors might be from various regions, and therefore different privacy laws might apply. Double-check and see if you’re complying with all relevant regions."
 msgstr ""
 
-#: websitescan/class-wsc-scanner.php:1425
-#: websitescan/class-wsc-scanner.php:1433
-#: websitescan/class-wsc-scanner.php:1441
+#: websitescan/class-wsc-scanner.php:1427
+#: websitescan/class-wsc-scanner.php:1435
+#: websitescan/class-wsc-scanner.php:1443
 msgid "Collecting data"
 msgstr ""
 
-#: websitescan/class-wsc-scanner.php:1426
-#: websitescan/class-wsc-scanner.php:1434
-#: websitescan/class-wsc-scanner.php:1442
+#: websitescan/class-wsc-scanner.php:1428
+#: websitescan/class-wsc-scanner.php:1436
+#: websitescan/class-wsc-scanner.php:1444
 msgid "We found a privacy statement! Please double-check if your privacy statement has all the needed elements expected from a privacy statement. Make sure you also allow for data request forms and records of consent to support your privacy statement."
 msgstr ""
 
-#: websitescan/class-wsc-scanner.php:1451
-#: websitescan/class-wsc-scanner.php:1460
-#: websitescan/class-wsc-scanner.php:1469
+#: websitescan/class-wsc-scanner.php:1453
+#: websitescan/class-wsc-scanner.php:1462
+#: websitescan/class-wsc-scanner.php:1471
 msgid "Privacy statement"
 msgstr ""
 
-#: websitescan/class-wsc-scanner.php:1452
-#: websitescan/class-wsc-scanner.php:1461
-#: websitescan/class-wsc-scanner.php:1470
+#: websitescan/class-wsc-scanner.php:1454
+#: websitescan/class-wsc-scanner.php:1463
+#: websitescan/class-wsc-scanner.php:1472
 msgid "We didn’t find a privacy statement. Please <a target=\"_blank\" href=\"{admin_url}\">add a privacy statement</a> that has all the needed elements expected from a privacy statement. Make sure you allow for DSR and Consent Records that respect the data minimization principle as well."
 msgstr ""
 
-#: websitescan/class-wsc-scanner.php:1480
-#: websitescan/class-wsc-scanner.php:1488
-#: websitescan/class-wsc-scanner.php:1496
+#: websitescan/class-wsc-scanner.php:1482
+#: websitescan/class-wsc-scanner.php:1490
+#: websitescan/class-wsc-scanner.php:1498
 msgid "WooCommerce"
 msgstr ""
 
-#: websitescan/class-wsc-scanner.php:1481
-#: websitescan/class-wsc-scanner.php:1489
-#: websitescan/class-wsc-scanner.php:1497
+#: websitescan/class-wsc-scanner.php:1483
+#: websitescan/class-wsc-scanner.php:1491
+#: websitescan/class-wsc-scanner.php:1499
 msgid "When selling with WooCommerce, compliance with privacy laws and customer rights is essential. Complianz simplifies this by generating required documents and managing privacy obligations effectively."
 msgstr ""
 
-#: websitescan/class-wsc-scanner.php:1506
-#: websitescan/class-wsc-scanner.php:1514
-#: websitescan/class-wsc-scanner.php:1522
+#: websitescan/class-wsc-scanner.php:1508
+#: websitescan/class-wsc-scanner.php:1516
+#: websitescan/class-wsc-scanner.php:1524
 msgid "Funding choices"
 msgstr ""
 
-#: websitescan/class-wsc-scanner.php:1507
-#: websitescan/class-wsc-scanner.php:1515
-#: websitescan/class-wsc-scanner.php:1523
+#: websitescan/class-wsc-scanner.php:1509
+#: websitescan/class-wsc-scanner.php:1517
+#: websitescan/class-wsc-scanner.php:1525
 msgid "Are you using the Google consent banner for advertising and Complianz for everything else? Why not remove one banner by combining everything with our Google Certified CMP that enablesd TCF and Consent Mode for Google products, without the need of multiple consent banners."
 msgstr ""
 
@@ -5889,47 +5894,47 @@ msgstr ""
 msgid "Activate the Website Scan first to use background scanning."
 msgstr ""
 
-#: websitescan/class-wsc-settings.php:195
+#: websitescan/class-wsc-settings.php:197
 msgid "Here you can manage your credentials. If you don’t want to use the Website Scan, you can reset it. A token will be created to verify your website. After creating your credentials, please make sure to check your email for a confirmation."
 msgstr ""
 
-#: websitescan/class-wsc-settings.php:228
+#: websitescan/class-wsc-settings.php:230
 msgid "E-mail address"
 msgstr ""
 
-#: websitescan/class-wsc-settings.php:237
+#: websitescan/class-wsc-settings.php:239
 msgid "Client ID"
 msgstr ""
 
-#: websitescan/class-wsc-settings.php:252
+#: websitescan/class-wsc-settings.php:254
 msgid "Client Secret"
 msgstr ""
 
-#: websitescan/class-wsc-settings.php:283
+#: websitescan/class-wsc-settings.php:285
 msgid "Background scanning"
 msgstr ""
 
-#: websitescan/class-wsc-settings.php:284
+#: websitescan/class-wsc-settings.php:286
 msgid "When enabled, the Website Scan periodically processes all selected post types in the background to detect newly added cookies."
 msgstr ""
 
-#: websitescan/class-wsc-settings.php:285
+#: websitescan/class-wsc-settings.php:287
 msgid "When enabled, the Website Scan processes one page every few minutes until every selected post type has been covered, detecting new cookies on your site as third-party scripts change over time."
 msgstr ""
 
-#: websitescan/class-wsc-settings.php:309
+#: websitescan/class-wsc-settings.php:311
 msgid "Post types to scan"
 msgstr ""
 
-#: websitescan/class-wsc-settings.php:310
+#: websitescan/class-wsc-settings.php:312
 msgid "Pages of the selected post types are included in the Website Scan and show the scan column in the post overview."
 msgstr ""
 
-#: websitescan/class-wsc-settings.php:311
+#: websitescan/class-wsc-settings.php:313
 msgid "The free scan covers posts and pages. Upgrade to Premium to include custom post types."
 msgstr ""
 
-#: websitescan/class-wsc-settings.php:316
+#: websitescan/class-wsc-settings.php:318
 msgid "Posts and pages are scanned by default. Select the custom post types you want to include."
 msgstr ""
 
@@ -6020,7 +6025,7 @@ msgstr ""
 #: settings/build/5193.f173371ca89b7cfd1dc7.js:1
 #: settings/build/7771.c248b4fe81dc93792714.js:1
 #: settings/build/9709.a24b2a1fe24c4ad466ea.js:1
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "Something went wrong"
 msgstr ""
 
@@ -6065,7 +6070,7 @@ msgid "Get Premium"
 msgstr ""
 
 #: settings/build/11.773ce66896be1c8a4d07.js:1
-#: settings/build/2980.92a8207f9d739ea56809.js:1
+#: settings/build/2980.a675d6d34b56c62f6f43.js:1
 #: settings/build/6281.61ad008ffae13664155d.js:1
 #: settings/build/8525.433647e550a4b16270cb.js:1
 msgid "Previous"
@@ -6073,7 +6078,7 @@ msgstr ""
 
 #: settings/build/11.773ce66896be1c8a4d07.js:1
 #: settings/build/1137.521c056ed304050ba669.js:1
-#: settings/build/2980.92a8207f9d739ea56809.js:1
+#: settings/build/2980.a675d6d34b56c62f6f43.js:1
 #: settings/build/5875.3b611bc394630cb6c9f0.js:1
 #: settings/build/6281.61ad008ffae13664155d.js:1
 #: settings/build/6729.f20f24431439cc4a2508.js:1
@@ -6114,23 +6119,23 @@ msgstr ""
 msgid "Collapse all"
 msgstr ""
 
-#: settings/build/17.1d5f385a5620b230bdb0.js:1
-#: settings/build/2980.92a8207f9d739ea56809.js:1
+#: settings/build/17.472d1ebe75ce9a6fed09.js:1
+#: settings/build/2980.a675d6d34b56c62f6f43.js:1
 msgid "This wizard is intended to provide a general guide to a possible data breach."
 msgstr ""
 
-#: settings/build/17.1d5f385a5620b230bdb0.js:1
-#: settings/build/2980.92a8207f9d739ea56809.js:1
+#: settings/build/17.472d1ebe75ce9a6fed09.js:1
+#: settings/build/2980.a675d6d34b56c62f6f43.js:1
 msgid "Specialist legal advice should be sought about your specific circumstances."
 msgstr ""
 
-#: settings/build/17.1d5f385a5620b230bdb0.js:1
-#: settings/build/2980.92a8207f9d739ea56809.js:1
+#: settings/build/17.472d1ebe75ce9a6fed09.js:1
+#: settings/build/2980.a675d6d34b56c62f6f43.js:1
 msgid "Specialist legal advice required"
 msgstr ""
 
-#: settings/build/17.1d5f385a5620b230bdb0.js:1
-#: settings/build/2980.92a8207f9d739ea56809.js:1
+#: settings/build/17.472d1ebe75ce9a6fed09.js:1
+#: settings/build/2980.a675d6d34b56c62f6f43.js:1
 msgid "Your dataleak report:"
 msgstr ""
 
@@ -6383,7 +6388,7 @@ msgstr ""
 #: settings/build/847.3a370ef997f4a4140465.js:1
 #: settings/build/1137.521c056ed304050ba669.js:1
 #: settings/build/1249.6de9f730cac4c47b6e71.js:1
-#: settings/build/2980.92a8207f9d739ea56809.js:1
+#: settings/build/2980.a675d6d34b56c62f6f43.js:1
 #: settings/build/3192.927ccc5a39908a2c5eac.js:1
 #: settings/build/3518.c39c508126fbf4701fb6.js:1
 #: settings/build/4570.dedb4dde2dccc3188414.js:1
@@ -6758,7 +6763,7 @@ msgid "Open"
 msgstr ""
 
 #: settings/build/1624.9d702c7e6ca31b8faac0.js:1
-#: settings/build/2980.92a8207f9d739ea56809.js:1
+#: settings/build/2980.a675d6d34b56c62f6f43.js:1
 #: settings/build/3068.8435f38def8428448d03.js:1
 #: settings/build/3078.7ed8e986bf8c5688fd8a.js:1
 #: settings/build/6281.61ad008ffae13664155d.js:1
@@ -7013,32 +7018,32 @@ msgstr ""
 msgid "Type your question here"
 msgstr ""
 
-#: settings/build/2980.92a8207f9d739ea56809.js:1
+#: settings/build/2980.a675d6d34b56c62f6f43.js:1
 #: settings/build/6281.61ad008ffae13664155d.js:1
 msgid "Incomplete"
 msgstr ""
 
-#: settings/build/2980.92a8207f9d739ea56809.js:1
+#: settings/build/2980.a675d6d34b56c62f6f43.js:1
 #: settings/build/6281.61ad008ffae13664155d.js:1
 msgid "The wizard has not been completed yet, but this field requires information from the wizard. Please complete the wizard first."
 msgstr ""
 
-#: settings/build/2980.92a8207f9d739ea56809.js:1
+#: settings/build/2980.a675d6d34b56c62f6f43.js:1
 msgid "Create Data Breach report"
 msgstr ""
 
-#: settings/build/2980.92a8207f9d739ea56809.js:1
+#: settings/build/2980.a675d6d34b56c62f6f43.js:1
 #: settings/build/6281.61ad008ffae13664155d.js:1
 #: settings/build/8525.433647e550a4b16270cb.js:1
 msgid "Next"
 msgstr ""
 
-#: settings/build/2980.92a8207f9d739ea56809.js:1
+#: settings/build/2980.a675d6d34b56c62f6f43.js:1
 #: settings/build/6281.61ad008ffae13664155d.js:1
 msgid "Create"
 msgstr ""
 
-#: settings/build/2980.92a8207f9d739ea56809.js:1
+#: settings/build/2980.a675d6d34b56c62f6f43.js:1
 msgid "Exit"
 msgstr ""
 
@@ -7385,7 +7390,7 @@ msgstr ""
 #: settings/build/4570.dedb4dde2dccc3188414.js:1
 #: settings/build/6644.18e0447b120324cb47ec.js:1
 #: settings/build/8596.9b42544648802b678f6d.js:1
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "Documentation"
 msgstr ""
 
@@ -8073,110 +8078,110 @@ msgstr ""
 msgid "%s rating based on %d ratings"
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "Saving settings..."
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "Settings saved"
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "Unexpected error"
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "New"
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "Go Pro"
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "This field is required"
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "Please enter a valid URL"
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "Please enter a valid email address"
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "Please enter a valid number"
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "Please enter a valid phone number"
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "The wizard is currently in use by user with ID: "
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "To prevent conflicts during saving the wizard is temporarily locked."
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "The lock will automatically clear after two minutes."
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "required"
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "Please check if security settings on the server or a plugin is blocking the requests from Complianz."
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "The Complianz Rest API is disabled."
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "The Complianz Rest API returned a not found."
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "The Complianz Rest API returned a 403 forbidden error."
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "A problem was detected during the loading of the settings"
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "The request returned the following errors:"
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "Response code:"
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "Status code:"
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "Server response:"
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "More information"
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "Switch between banners"
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "Banner"
 msgstr ""
 
-#: settings/build/index.12f2e5cd6aa1a44e0d08.js:1
+#: settings/build/index.b0f83689c82f07ab1916.js:1
 msgid "Edit consent types"
 msgstr ""

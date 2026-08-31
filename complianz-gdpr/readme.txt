@@ -5,8 +5,8 @@ Tags: cookie consent, GDPR, cookie banner, ccpa, cookie notice
 Requires at least: 5.9
 License: GPL2
 Requires PHP: 7.4
-Tested up to: 7.0
-Stable tag: 7.5.3.1
+Tested up to: 7.1
+Stable tag: 7.5.4
 
 Publish your cookie banner or notice in minutes. Automatically scan cookies, and create policies to align with GDPR, CCPA, and Google Consent Mode. 
 
@@ -226,6 +226,13 @@ Complianz uses geo-based detection to show the correct consent banner for each v
 The free version works on a single site. Complianz Premium supports WordPress multisite networks and includes features for managing consent across multiple domains. 
 
 == Changelog ==
+= 7.5.4 =
+* August 31st, 2026
+* Enhancement: Tested and declared compatible with WordPress 7.1.
+* Enhancement: Updated mPDF to v.8.3.1.
+* Feature: New developer filters `cmplz_pdf_footer_text` and `cmplz_pdf_file_title` to customize the generated document PDF footer and filename, plus an explicit generation-date footer on generated PDF documents.
+* Fix: Corrected a rendering issue in the settings interface.
+
 = 7.5.3.1 =
 * August 18th, 2026
 * Fix: Fatal error ("Undefined constant") when generating the US Cookie Policy, caused by a stray character introduced in 7.5.3.
